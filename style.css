@@ -1,0 +1,1066 @@
+/* Write all your CSS here */
+
+/* Please indent properly */
+
+/* Please use only lower-case letters */
+
+/* Your webpage should be 100% responsive!!! */
+
+body * {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    background-color: #3f0d40;
+    color: #ad9aaf;
+    padding: 15px;
+    padding-left: 2em;
+    width: 200px;
+}
+
+.green-h {
+    color: #2bac76;
+    font-size: 0.7em;
+}
+
+ul {
+    margin-bottom: 1em;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 0.8em;
+    margin-left: 0px;
+}
+
+.user-id {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    font-size: 1.2em;
+    margin-bottom: 9em;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: 13px;
+}
+
+ul i {
+    font-size: 12px;
+}
+
+ul li i {
+    margin-right: 0px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ad9aaf;
+}
+
+.searching {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.searching input {
+    padding: 10px;
+    border: none;
+    border-radius: 0.5em;
+    color: #ad9aaf;
+    background-color: #330035;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    background-position: 5px;
+    background-image: url(images\iconfinder_logs_2429331.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.ch-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sms-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.apps-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.number1 {
+    border: 1px solid white;
+    padding: 2px 9px;
+    background-color: #d42158;
+    border-radius: 50px;
+    margin-right: 4em;
+}
+
+.clicked {
+    background-color: #136eb4;
+    padding: 4px 0px;
+}
+
+.clicked a {
+    color: white;
+}
+
+/* .green-h {
+    color: #2bae78;
+} */
+
+header p {
+    margin-right: 13px;
+    border-left: 1px solid #888888;
+    font-size: 14px;
+    color: #222222;
+}
+
+header p i {
+    color: #888888;
+    margin-right: 13px;
+    border-left: 1px solid #888888;
+    padding: 0px 9px;
+}
+
+header {
+    position: sticky;
+    opacity: 0.7;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    flex-direction: row;
+}
+
+.search-bar i {
+    margin: 1px;
+    color: #888888;
+    padding-left: 8px;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    border: 1px solid#888888;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+main {
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.aside {
+    display: flex;
+}
+
+.hr-line {
+    color: #888888;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20em;
+}
+
+.hr-line span {
+    color: #222222;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.hr-line hr {
+    width: 40%;
+}
+
+button {
+    background-color: #017b54;
+    padding: 6px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    margin-top: 34px;
+}
+
+.comment-btn {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 78px 277px;
+}
+
+footer img {
+    display: flex;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 8px;
+}
+
+.reena-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    /* justify-content: space-between; */
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.reena-img p {
+    align-items: flex-end;
+    color: #888888;
+}
+
+time {
+    color: #888888;
+    font-size: 13px;
+}
+
+.f-part {
+    border: 2px solid #888888;
+    border-radius: 5px;
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+.f-part input {
+    flex: 1;
+    border: none;
+    border-left: 2px solid#888888;
+    padding: 1em 20em;
+}
+
+.f-part input~i {
+    color: #61646a;
+}
+
+.f-part i {
+    margin: 2px;
+    color: gray;
+    font-size: 1.2em;
+}
+
+.f-plus {
+    margin: 5px;
+    color: gray;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.f-input ::after .aleem {
+    display: block;
+}
+
+.wali {
+    display: flex;
+}
+
+.aleem {
+    display: flex;
+}
+
+@media screen and (max-width: 650px) {
+    nav {
+        display: none;
+    }
+    header p {
+        margin-right: 3px;
+        color: #888888;
+    }
+    header p i {
+        color: #888888;
+        margin-right: 3px;
+        border-left: 1px solid #888888;
+        padding: 0px 2px;
+    }
+    header {
+        margin: 0%;
+        color: #e9d7d7;
+        background-color: #3f0d40;
+        position: sticky;
+        opacity: 0.7;
+        top: 0;
+        display: flex;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .search-bar i {
+        margin: 1px;
+        color: #888888;
+        padding-left: 5px;
+        display: none;
+    }
+    .topic p {
+        display: none;
+    }
+    .search-bar input {
+        flex: 1;
+        border: none;
+        border: none;
+        padding: 3px;
+        border-radius: 4px;
+        background-color: #1f0120;
+        color: #d4cccc;
+    }
+    main {
+        padding: 0px;
+        width: auto;
+    }
+    /* .aside {
+        display: flex;
+    } */
+    .hr-line {
+        color: #888888;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0em;
+    }
+    .hr-line span {
+        color: #222222;
+        font-size: 9px;
+        font-weight: 600;
+    }
+    /* .hr-line hr {
+        width: 32%;
+    } */
+    .one {
+        width: 40%;
+    }
+    .two {
+        width: 40%;
+    }
+    button {
+        background-color: #017b54;
+        padding: 0.5em;
+        color: white;
+        border-radius: 6px;
+        border: none;
+        margin-top: 27px;
+    }
+    .comment-btn p {
+        font-size: 11px;
+    }
+    .comment-btn h2 {
+        font-size: 15px;
+    }
+    .comment-btn {
+        width: em;
+        background-color: #f7f7f7;
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        flex-wrap: wrap;
+    }
+    footer img {
+        display: flex;
+        height: 40px;
+        border-radius: 3px;
+        margin-left: 8px;
+    }
+    .reena-img {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    .reena-img p {
+        align-items: flex-end;
+        color: #888888;
+    }
+    time {
+        color: #888888;
+        font-size: 13px;
+    }
+    .f-part {
+        display: none;
+    }
+    .wali {
+        display: flex;
+    }
+    .aleem {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 768px) {
+    nav {
+        background-color: #3f0d40;
+        color: #ad9aaf;
+        padding: 15px;
+        padding-left: 2em;
+        width: 200px;
+    }
+    .green-h {
+        color: #2bac76;
+        font-size: 0.7em;
+    }
+    ul {
+        margin-bottom: 1em;
+        list-style-type: none;
+    }
+    li {
+        margin-bottom: 0.8em;
+        margin-left: 0px;
+    }
+    .user-id {
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .heading {
+        font-size: 1.2em;
+        margin-bottom: 9em;
+        justify-content: space-between;
+    }
+    .icon {
+        font-size: 13px;
+    }
+    ul i {
+        font-size: 12px;
+    }
+    ul li i {
+        margin-right: 0px;
+    }
+    ul li a {
+        text-decoration: none;
+        color: #ad9aaf;
+    }
+    .searching {
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    .searching input {
+        padding: 10px;
+        border: none;
+        border-radius: 0.5em;
+        color: #ad9aaf;
+        background-color: #330035;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        padding-left: 30px;
+    }
+    .ch-heading {
+        display: flex;
+        justify-content: space-between;
+    }
+    .sms-heading {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    .apps-heading {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+    .number1 {
+        border: 1px solid white;
+        padding: 2px 9px;
+        background-color: #d42158;
+        border-radius: 50px;
+        margin-right: 4em;
+    }
+    .clicked {
+        background-color: #136eb4;
+        padding: 4px 0px;
+    }
+    .clicked a {
+        color: white;
+    }
+    header p {
+        margin-right: 3px;
+        color: #888888;
+    }
+    header p i {
+        color: #888888;
+        margin-right: 3px;
+        border-left: 1px solid #888888;
+        padding: 0px 2px;
+    }
+    header {
+        margin: 0%;
+        color: #e9d7d7;
+        background-color: #3f0d40;
+        position: sticky;
+        opacity: 0.7;
+        top: 0;
+        display: flex;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .search-bar i {
+        margin: 1px;
+        color: #888888;
+        padding-left: 5px;
+        display: none;
+    }
+    .topic p {
+        display: none;
+    }
+    .search-bar input {
+        flex: 1;
+        border: none;
+        border: none;
+        padding: 3px;
+        border-radius: 4px;
+        background-color: #1f0120;
+        color: #d4cccc;
+    }
+    main {
+        padding: 0px;
+        width: auto;
+    }
+    /* .aside {
+        display: flex;
+    } */
+    .hr-line {
+        color: #888888;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 6em;
+    }
+    .hr-line span {
+        color: #222222;
+        font-size: 9px;
+        font-weight: 600;
+    }
+    /* .hr-line hr {
+        width: 32%;
+    } */
+    .one {
+        width: 40%;
+    }
+    .two {
+        width: 40%;
+    }
+    button {
+        background-color: #017b54;
+        padding: 0.5em;
+        color: white;
+        border-radius: 6px;
+        border: none;
+        margin-top: 27px;
+    }
+    .comment-btn p {
+        font-size: 15px;
+        padding: 0px;
+        display: inline-block;
+    }
+    .comment-btn h2 {
+        margin-bottom: 2em;
+        font-size: 20px;
+        display: block;
+    }
+    .comment-btn {
+        margin-bottom: 2em;
+        background-color: #f7f7f7;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 137px 27px;
+    }
+    /* .comment-btn {
+        width: em;
+        background-color: #f7f7f7;
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        flex-wrap: wrap;
+    } */
+    footer img {
+        display: flex;
+        height: 40px;
+        border-radius: 3px;
+        margin-left: 8px;
+    }
+    .reena-img {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2em;
+        margin-bottom: 1.5em;
+    }
+    .reena-img p {
+        align-items: flex-end;
+        color: #888888;
+    }
+    time {
+        color: #888888;
+        font-size: 13px;
+    }
+    .f-part {
+        display: flex;
+    }
+    .wali {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .aleem {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .f-input {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 968px) {
+    nav {
+        background-color: #3f0d40;
+        color: #ad9aaf;
+        padding: 15px;
+        padding-left: 2em;
+        width: 200px;
+    }
+    body {
+        width: 100%;
+    }
+    .green-h {
+        color: #2bac76;
+        font-size: 0.7em;
+    }
+    ul {
+        margin-bottom: 1em;
+        list-style-type: none;
+    }
+    li {
+        margin-bottom: 0.8em;
+        margin-left: 0px;
+    }
+    .user-id {
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .heading {
+        font-size: 1.2em;
+        margin-bottom: 9em;
+        justify-content: space-between;
+    }
+    .icon {
+        font-size: 13px;
+    }
+    ul i {
+        font-size: 12px;
+    }
+    ul li i {
+        margin-right: 0px;
+    }
+    ul li a {
+        text-decoration: none;
+        color: #ad9aaf;
+    }
+    .searching {
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    .searching input {
+        padding: 10px;
+        border: none;
+        border-radius: 0.5em;
+        color: #ad9aaf;
+        background-color: #330035;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        padding-left: 30px;
+    }
+    .ch-heading {
+        display: flex;
+        justify-content: space-between;
+    }
+    .sms-heading {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    .apps-heading {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+    .number1 {
+        border: 1px solid white;
+        padding: 2px 9px;
+        background-color: #d42158;
+        border-radius: 50px;
+        margin-right: 4em;
+    }
+    .clicked {
+        background-color: #136eb4;
+        padding: 4px 0px;
+    }
+    .clicked a {
+        color: white;
+    }
+    header p {
+        margin-right: 3px;
+        color: #888888;
+    }
+    header p i {
+        color: #888888;
+        margin-right: 3px;
+        border-left: 1px solid #888888;
+        padding: 0px 2px;
+    }
+    header {
+        margin: 0%;
+        color: #e9d7d7;
+        background-color: #3f0d40;
+        position: sticky;
+        opacity: 0.7;
+        top: 0;
+        display: flex;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .search-bar i {
+        margin: 1px;
+        color: #888888;
+        padding-left: 5px;
+        display: none;
+    }
+    .topic p {
+        display: none;
+    }
+    .search-bar input {
+        flex: 1;
+        border: none;
+        border: none;
+        padding: 3px;
+        border-radius: 4px;
+        background-color: #1f0120;
+        color: #d4cccc;
+    }
+    main {
+        padding: 0px;
+        width: auto;
+    }
+    .hr-line {
+        color: #888888;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3em;
+    }
+    .hr-line span {
+        color: #222222;
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .one {
+        width: 40%;
+    }
+    .two {
+        width: 40%;
+    }
+    button {
+        background-color: #017b54;
+        padding: 0.5em;
+        color: white;
+        border-radius: 6px;
+        border: none;
+        margin-top: 27px;
+    }
+    .comment-btn p {
+        font-size: 15px;
+        padding: 0px;
+        display: inline-block;
+    }
+    .comment-btn h2 {
+        margin-bottom: 2em;
+        font-size: 20px;
+        display: block;
+    }
+    .comment-btn {
+        background-color: #f7f7f7;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 34px 44px;
+    }
+    footer img {
+        display: flex;
+        height: 40px;
+        border-radius: 3px;
+        margin-left: 8px;
+    }
+    .reena-img {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2em;
+        margin-bottom: 1.5em;
+    }
+    .reena-img p {
+        align-items: flex-end;
+        color: #888888;
+    }
+    time {
+        color: #888888;
+        font-size: 13px;
+    }
+    .f-part {
+        display: flex;
+    }
+    .wali {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .aleem {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .f-input {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 969px) and (max-width: 1200px) {
+    nav {
+        background-color: #3f0d40;
+        color: #ad9aaf;
+        padding: 15px;
+        padding-left: 2em;
+        width: 200px;
+    }
+    body {
+        width: 100%;
+    }
+    .green-h {
+        color: #2bac76;
+        font-size: 0.7em;
+    }
+    ul {
+        margin-bottom: 1em;
+        list-style-type: none;
+    }
+    li {
+        margin-bottom: 0.8em;
+        margin-left: 0px;
+    }
+    .user-id {
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .heading {
+        font-size: 1.2em;
+        margin-bottom: 9em;
+        justify-content: space-between;
+    }
+    .icon {
+        font-size: 13px;
+    }
+    ul i {
+        font-size: 12px;
+    }
+    ul li i {
+        margin-right: 0px;
+    }
+    ul li a {
+        text-decoration: none;
+        color: #ad9aaf;
+    }
+    .searching {
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    .searching input {
+        padding: 10px;
+        border: none;
+        border-radius: 0.5em;
+        color: #ad9aaf;
+        background-color: #330035;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        padding-left: 30px;
+    }
+    .ch-heading {
+        display: flex;
+        justify-content: space-between;
+    }
+    .sms-heading {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    .apps-heading {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+    .number1 {
+        border: 1px solid white;
+        padding: 2px 9px;
+        background-color: #d42158;
+        border-radius: 50px;
+        margin-right: 4em;
+    }
+    .clicked {
+        background-color: #136eb4;
+        padding: 4px 0px;
+    }
+    .clicked a {
+        color: white;
+    }
+    header p {
+        margin-right: 3px;
+        color: #888888;
+    }
+    header p i {
+        color: #888888;
+        margin-right: 3px;
+        border-left: 1px solid #888888;
+        padding: 0px 2px;
+    }
+    header {
+        margin: 0%;
+        color: #e9d7d7;
+        background-color: #3f0d40;
+        position: sticky;
+        opacity: 0.7;
+        top: 0;
+        display: flex;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .search-bar i {
+        margin: 1px;
+        color: #888888;
+        padding-left: 5px;
+        display: none;
+    }
+    .topic p {
+        display: none;
+    }
+    .search-bar input {
+        flex: 1;
+        border: none;
+        border: none;
+        padding: 3px;
+        border-radius: 4px;
+        background-color: #1f0120;
+        color: #d4cccc;
+    }
+    main {
+        padding: 0px;
+        width: auto;
+    }
+    .hr-line {
+        color: #888888;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3em;
+    }
+    .hr-line span {
+        color: #222222;
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .one {
+        width: 40%;
+    }
+    .two {
+        width: 40%;
+    }
+    button {
+        background-color: #017b54;
+        padding: 0.5em;
+        color: white;
+        border-radius: 6px;
+        border: none;
+        margin-top: 27px;
+    }
+    .comment-btn p {
+        font-size: 15px;
+        padding: 0px;
+        display: inline-block;
+    }
+    .comment-btn h2 {
+        margin-bottom: 2em;
+        font-size: 20px;
+        display: block;
+    }
+    .comment-btn {
+        background-color: #f7f7f7;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 64px 91px;
+    }
+    footer img {
+        display: flex;
+        height: 40px;
+        border-radius: 3px;
+        margin-left: 8px;
+    }
+    .reena-img {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2em;
+        margin-bottom: 1.5em;
+    }
+    .reena-img p {
+        align-items: flex-end;
+        color: #888888;
+    }
+    time {
+        color: #888888;
+        font-size: 13px;
+    }
+    .f-part {
+        display: flex;
+    }
+    .wali {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .aleem {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .f-input {
+        display: none;
+    }
+}
